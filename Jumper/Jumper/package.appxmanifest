@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="2ee5fb67-b71b-45aa-841f-dcb9b4158d61" Version="1.0.0.0" Publisher="CN=ali.sufiyan" />
+  <Identity Name="f4f4c552-52e1-4312-bc26-c3363b9cdb8e" Version="1.0.0.0" Publisher="CN=ali.sufiyan" />
   <Properties>
     <DisplayName>Jumper</DisplayName>
     <Description>Jumper</Description>
@@ -17,11 +17,8 @@
   <Applications>
     <Application Id="App" StartPage="index.html">
       <VisualElements DisplayName="Jumper" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Jumper" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" ShortName="Jumper" />
+        <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="splashscreen.png" />
-        <InitialRotationPreference>
-          <Rotation Preference="landscape" />
-        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>

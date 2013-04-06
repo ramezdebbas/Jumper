@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>1549a5ca-ba57-43d5-87f1-351b89bae6e4</ProjectGuid>
+    <ProjectGuid>f4f4c552-52e1-4312-bc26-c3363b9cdb8e</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
@@ -44,7 +44,7 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateThumbprint>36F627AD57D416603CED7E1C5F94A6E0FAA425C8</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>DEEA9DDB6F951C3B0954A5CE9C29BE26EC4851D5</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>Jumper_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
@@ -59,6 +59,10 @@
     <Content Include="images\player-sheet0.png" />
     <Content Include="images\platform-sheet0.png" />
     <Content Include="images\player2-sheet0.png" />
+    <Content Include="images\leftarrow-sheet0.png" />
+    <Content Include="images\leftarrow-sheet1.png" />
+    <Content Include="images\rightarrow-sheet0.png" />
+    <Content Include="images\rightarrow-sheet1.png" />
     <Content Include="app-logo.png" />
     <Content Include="app-smalllogo.png" />
     <Content Include="app-storelogo.png" />
